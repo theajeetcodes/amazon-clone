@@ -49,6 +49,25 @@ function createNavbar(parent) {
     secondSpan.textContent = "Update location";
     textDiv.appendChild(secondSpan);
 
+    // search
+    const searchDiv = document.createElement("div");
+    searchDiv.classList.add("search-div");
+    navDiv.appendChild(searchDiv);
+
+    const categoriesDiv = document.createElement("div");
+    categoriesDiv.classList.add("categories-div");
+    searchDiv.appendChild(categoriesDiv);
+
+    const categoriesBtn = document.createElement("button");
+    categoriesBtn.classList.add("categories-btn");
+    categoriesBtn.textContent = "All";
+    categoriesDiv.appendChild(categoriesBtn);
+
+    const search = document.createElement("input");
+    search.classList.add("search");
+    search.placeholder = "Search Amazon.in";
+    searchDiv.appendChild(search);
+
 }
 
 createNavbar(app);
