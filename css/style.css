@@ -1,3 +1,71 @@
-body {
-    background-color: blue;
+* {
+    margin: 0;
+    padding: 0;
 }
+
+.app {
+    display: flex;
+}
+
+.nav-div {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    background-color: black;
+}
+
+.logo-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 100%;
+    margin-left: 5px;
+}
+
+.logo {
+    height: 60px;
+    width: 80%; 
+    object-fit: cover;
+}
+
+.location-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 100%;
+    /* background-color: aqua; */
+}
+
+.icon-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 25px;
+}
+
+.icon {
+    height: 20px;
+    width: 20px;
+}
+
+.text-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.first-span {
+    font-size: 12px;
+    color: #cccccc;
+}
+
+.second-span {
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+

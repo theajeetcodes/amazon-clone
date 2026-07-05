@@ -1,1 +1,54 @@
-console.log("js file connected");
+const body = document.body
+
+const app = document.createElement("div");
+app.classList.add("app");
+body.appendChild(app);
+
+function createNavbar(parent) {
+    const navDiv = document.createElement("div");
+    navDiv.classList.add("nav-div");
+    parent.appendChild(navDiv);
+    
+    // logoDiv
+    const logoDiv = document.createElement("div");
+    logoDiv.classList.add("logo-div");
+    navDiv.appendChild(logoDiv);
+
+    const logo = document.createElement("img");
+    logo.classList.add("logo");
+    logo.src = "assets/images/logo.png";
+    logo.alt = "Amazon Logo";
+    logoDiv.appendChild(logo);
+
+    // locationDiv
+    const locationDiv = document.createElement("div");
+    locationDiv.classList.add("location-div");
+    navDiv.appendChild(locationDiv);
+
+    const iconDiv = document.createElement("div");
+    iconDiv.classList.add("icon-div");
+    locationDiv.appendChild(iconDiv);
+
+    const icon = document.createElement("img");
+    icon.classList.add("icon");
+    icon.src = "assets/icons/location.png";
+    icon.alt = "location Icon";
+    iconDiv.appendChild(icon);
+
+    const textDiv = document.createElement("div");
+    textDiv.classList.add("text-div");
+    locationDiv.appendChild(textDiv);
+
+    const firstSpan = document.createElement("span");
+    firstSpan.classList.add("first-span");
+    firstSpan.textContent = "Delivering to Lucknow 226005";
+    textDiv.appendChild(firstSpan);
+
+    const secondSpan = document.createElement("span");
+    secondSpan.classList.add("second-span");
+    secondSpan.textContent = "Update location";
+    textDiv.appendChild(secondSpan);
+
+}
+
+createNavbar(app);
