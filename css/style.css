@@ -72,10 +72,9 @@
 .search-div {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     height: 55%;
     width: 350px;
-    /* margin-left: 20px; */
-    background-color: aqua;
 }
 
 .categories-div {
@@ -94,10 +93,26 @@
     background: #f3f3f3;
 }
 
-.search {
+.input {
     height: 100%;
     width: 240px;
     border: none;
     outline: none;
     padding-left: 10px;
+}
+
+.search-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50px;
+    background-color: rgb(255, 229, 189);
+
+
+}
+
+.search {
+    height: 100%;
+    object-fit: cover;
 }

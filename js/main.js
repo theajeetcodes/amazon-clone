@@ -63,10 +63,20 @@ function createNavbar(parent) {
     categoriesBtn.textContent = "All";
     categoriesDiv.appendChild(categoriesBtn);
 
-    const search = document.createElement("input");
+    const input = document.createElement("input");
+    input.classList.add("input");
+    input.placeholder = "Search Amazon.in";
+    searchDiv.appendChild(input);
+
+    const searchIcon = document.createElement("div")
+    searchIcon.classList.add("search-icon");
+    searchDiv.appendChild(searchIcon);
+
+    const search = document.createElement("img");
     search.classList.add("search");
-    search.placeholder = "Search Amazon.in";
-    searchDiv.appendChild(search);
+    search.src = "assets/icons/search.png";
+    search.alt = "Search Icon";
+    searchIcon.appendChild(search)
 
 }
 
