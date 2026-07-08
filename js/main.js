@@ -78,6 +78,22 @@ function createNavbar(parent) {
     search.alt = "Search Icon";
     searchIcon.appendChild(search)
 
+    // language
+    const langDiv = document.createElement("div");
+    langDiv.classList.add("lang-div");
+    navDiv.appendChild(langDiv);
+
+    const flag = document.createElement("img");
+    flag.classList.add("flag");
+    flag.src = "assets/images/flag.png";
+    flag.alt = "Indian Flag";
+    langDiv.appendChild(flag);
+
+    const lang = document.createElement("h2");
+    lang.classList.add("lang");
+    lang.textContent = "EN";
+    langDiv.appendChild(lang);
+
 }
 
 createNavbar(app);

@@ -116,3 +116,25 @@
     height: 100%;
     object-fit: cover;
 }
+
+.lang-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 125px;
+    gap: 2px;
+    /* background-color: aqua; */
+}
+
+.flag {
+    height: 35px;
+    object-fit: cover;
+    /* width: 100%; */
+}
+
+.lang {
+    font-size: 18px;
+    font-family: arial;
+    color: #f3f3f3;
+}
