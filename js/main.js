@@ -94,6 +94,26 @@ function createNavbar(parent) {
     lang.textContent = "EN";
     langDiv.appendChild(lang);
 
+    // account
+    const detailDiv = document.createElement("div");
+    detailDiv.classList.add("detail-div");
+    navDiv.appendChild(detailDiv);
+
+    const hello = document.createElement("h3");
+    hello.classList.add("hello-text");
+    hello.textContent = "Hello, Ajeet";
+    detailDiv.appendChild(hello);
+
+    const accountDiv = document.createElement("div");
+    accountDiv.classList.add("account-div");
+    detailDiv.appendChild(accountDiv);
+
+    const account = document.createElement("h3");
+    account.classList.add("account");
+    account.textContent = "Account & Lists";
+    accountDiv.appendChild(account);
+
+
 }
 
 createNavbar(app);

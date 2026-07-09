@@ -138,3 +138,22 @@
     font-family: arial;
     color: #f3f3f3;
 }
+
+.detail-div {
+    display: flex;
+    flex-direction: column;
+    line-height: 16px;
+    color: #f3f3f3;
+    height: 100%;
+    font-family: arial;
+    justify-content: center;
+}
+
+.hello-text {
+    font-size: 12px;
+}
+
+.account {
+    font-size: 15px;
+    font-weight: 700;
+}
