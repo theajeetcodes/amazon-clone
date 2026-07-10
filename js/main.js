@@ -113,7 +113,20 @@ function createNavbar(parent) {
     account.textContent = "Account & Lists";
     accountDiv.appendChild(account);
 
+    // return & order
+    const returnDiv = document.createElement("div");
+    returnDiv.classList.add("detail-div");
+    navDiv.appendChild(returnDiv);
 
+    const returnText = document.createElement("h3");
+    returnText.classList.add("hello-text");
+    returnText.textContent = "Returns";
+    returnDiv.appendChild(returnText);
+
+    const orderTest = document.createElement("h3");
+    orderTest.classList.add("account");
+    orderTest.textContent = "& Orders";
+    returnDiv.appendChild(orderTest);
 }
 
 createNavbar(app);
