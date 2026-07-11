@@ -127,6 +127,26 @@ function createNavbar(parent) {
     orderTest.classList.add("account");
     orderTest.textContent = "& Orders";
     returnDiv.appendChild(orderTest);
+
+    // Cart
+    const cartDiv = document.createElement("div");
+    cartDiv.classList.add("cart-div");
+    navDiv.appendChild(cartDiv);
+
+    const cartIconDiv = document.createElement("div");
+    cartIconDiv.classList.add("cart-icon-div");
+    cartDiv.appendChild(cartIconDiv);
+
+    const cartIcon = document.createElement("img");
+    cartIcon.classList.add("cart-icon");
+    cartIcon.src = "assets/icons/cart.png";
+    cartIcon.alt = "Cart Icon";
+    cartIconDiv.appendChild(cartIcon);
+
+    const cartText = document.createElement("h3");
+    cartText.classList.add("account");
+    cartText.textContent = "Cart";
+    cartDiv.appendChild(cartText);
 }
 
 createNavbar(app);
