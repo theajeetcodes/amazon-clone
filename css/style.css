@@ -85,7 +85,7 @@
     align-items: center;
     height: 100%;
     width: 50px;
-    border-right: 1px solid #d5d9d9;
+    /* border-right: 1px solid #d5d9d9; */
 }
 
 .categories-btn {
@@ -93,6 +93,8 @@
     width: 100%;
     border: none;
     background: #f3f3f3;
+    color: #555;
+    transition: background-color 0.2s ease;
 }
 
 .input {
@@ -110,12 +112,14 @@
     height: 100%;
     width: 50px;
     background-color: rgb(255, 229, 189);
+    /* transition: background-color 0.2s ease; */
 
 
 }
 
 .search {
     height: 100%;
+    width: 34px;
     object-fit: cover;
 }
 
@@ -123,9 +127,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
-    width: 100px;
+    height: 50px;
+    width: 70px;
     gap: 2px;
+    border: 1px solid transparent;
 }
 
 .flag {
@@ -145,9 +150,10 @@
     flex-direction: column;
     line-height: 16px;
     color: #f3f3f3;
-    height: 100%;
+    height: 50px;
     font-family: arial;
     justify-content: center;
+    border: 1px solid transparent;
 }
 
 .hello-text {
@@ -167,6 +173,7 @@
     font-family: arial, sans-serif;
     width: 95px;
     margin-right: 20px;
+    border: 1px solid transparent;
 }
 
 .cart-icon-div {
@@ -180,8 +187,36 @@
 /* hover */
 .logo-div:hover {
     border-color: white;
+    cursor: pointer;
 }
 
 .location-div:hover {
     border-color: white;
+    cursor: pointer;
+}
+
+.categories-btn:hover {
+    background-color: #d5d9d9;
+    color: black;
+    cursor: pointer;
+}
+
+.search-icon:hover {
+    background-color: rgb(230, 198, 139);
+    cursor: pointer;
+}
+
+.lang-div:hover {
+    border-color:  white;
+    cursor: pointer;
+}
+
+.detail-div:hover {
+    border-color: white;
+    cursor: pointer;
+}
+
+.cart-div:hover {
+    border-color: white;
+    cursor: pointer;
 }
