@@ -85,16 +85,27 @@
     align-items: center;
     height: 100%;
     width: 50px;
-    /* border-right: 1px solid #d5d9d9; */
+    /* transition: background-color 0.2s ease; */
 }
 
 .categories-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
     height: 100%;
     width: 100%;
     border: none;
     background: #f3f3f3;
     color: #555;
+    cursor: pointer;
     transition: background-color 0.2s ease;
+}
+
+.down-arrow {
+    height: 10px;
+    width: 10px;
+    object-fit: contain;
 }
 
 .input {

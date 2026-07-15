@@ -60,8 +60,17 @@ function createNavbar(parent) {
 
     const categoriesBtn = document.createElement("button");
     categoriesBtn.classList.add("categories-btn");
-    categoriesBtn.textContent = "All";
     categoriesDiv.appendChild(categoriesBtn);
+
+    const text = document.createElement("span");
+    text.textContent = "All";
+    categoriesBtn.appendChild(text);
+
+    const downArrow = document.createElement("img");
+    downArrow.classList.add("down-arrow");
+    downArrow.src = "assets/icons/downarrow1.png";
+    downArrow.alt = "Down Arrow";
+    categoriesBtn.appendChild(downArrow);
 
     const input = document.createElement("input");
     input.classList.add("input");
