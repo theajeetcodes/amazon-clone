@@ -156,6 +156,13 @@
     color: #f3f3f3;
 }
 
+.lang-arrow {
+    width: 8px;
+    height: 8px;
+    margin-bottom: 3px;
+    object-fit: contain;
+}
+
 .detail-div {
     display: flex;
     flex-direction: column;

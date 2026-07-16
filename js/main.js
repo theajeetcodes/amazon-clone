@@ -98,10 +98,16 @@ function createNavbar(parent) {
     flag.alt = "Indian Flag";
     langDiv.appendChild(flag);
 
-    const lang = document.createElement("h2");
+    const lang = document.createElement("span");
     lang.classList.add("lang");
     lang.textContent = "EN";
     langDiv.appendChild(lang);
+
+    const langArrow = document.createElement("img");
+    langArrow.classList.add("lang-arrow");
+    langArrow.src = "assets/icons/downarrow.png";
+    langArrow.alt = "Down Arrow";
+    langDiv.appendChild(langArrow);
 
     // account
     const detailDiv = document.createElement("div");
