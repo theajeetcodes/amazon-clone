@@ -123,10 +123,16 @@ function createNavbar(parent) {
     accountDiv.classList.add("account-div");
     detailDiv.appendChild(accountDiv);
 
-    const account = document.createElement("h3");
+    const account = document.createElement("span");
     account.classList.add("account");
     account.textContent = "Account & Lists";
     accountDiv.appendChild(account);
+
+    const accountArrow = document.createElement("img");
+    accountArrow.classList.add("account-arrow");
+    accountArrow.src = "assets/icons/downarrow.png";
+    accountArrow.alt = "Down Arrow";
+    accountDiv.appendChild(accountArrow);
 
     // return & order
     const returnDiv = document.createElement("div");
