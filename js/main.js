@@ -92,6 +92,30 @@ function createNavbar(parent) {
     langDiv.classList.add("lang-div");
     navDiv.appendChild(langDiv);
 
+    // language hover list 
+
+    const languageList = document.createElement("div");
+    languageList.classList.add("language-list");
+    langDiv.appendChild(languageList);
+
+    const languages = [
+        "English - EN",
+        "हिन्दी - HI",
+        "தமிழ்",
+        "ಕನ್ನಡ",
+        "മലയാളം",
+        "বাংলা",
+        "मराठी",
+        "ਪੰਜਾਬੀ"
+    ];
+
+    languages.forEach(language => {
+        const item = document.createElement("div");
+        item.classList.add("language-item");
+        item.textContent = language;
+        languageList.appendChild(item);
+    });
+
     const flag = document.createElement("img");
     flag.classList.add("flag");
     flag.src = "assets/images/flag.png";
@@ -171,3 +195,4 @@ function createNavbar(parent) {
 }
 
 createNavbar(app);
+
