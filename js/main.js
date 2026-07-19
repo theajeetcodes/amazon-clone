@@ -138,6 +138,32 @@ function createNavbar(parent) {
     detailDiv.classList.add("detail-div");
     navDiv.appendChild(detailDiv);
 
+    // hover list 
+
+    const accountList = document.createElement("div");
+    accountList.classList.add("account-list");
+    detailDiv.appendChild(accountList);
+
+    const profileDiv = document.createElement("div");
+    profileDiv.classList.add("profile-div");
+    accountList.appendChild(profileDiv);
+
+    const profile = document.createElement("span");
+    profile.classList.add("profile-span");
+    profile.textContent = " Who is shopping? Select a profile";
+    profileDiv.appendChild(profile);
+
+    const manageProfile = document.createElement("a");
+    manageProfile.classList.add("manage-profile");
+    manageProfile.href = "#";
+    manageProfile.textContent = "Manage Profiles";
+    profileDiv.appendChild(manageProfile);
+
+    const profileArrow = document.createElement("span");
+    profileArrow.classList.add("profile-arrow");
+    profileArrow.textContent = ">";
+    profileDiv.appendChild(profileArrow);
+
     const hello = document.createElement("h3");
     hello.classList.add("hello-text");
     hello.textContent = "Hello, Ajeet";

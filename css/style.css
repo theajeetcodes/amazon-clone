@@ -198,6 +198,55 @@
     font-family: arial;
     justify-content: center;
     border: 1px solid transparent;
+    position: relative;
+}
+
+.account-list {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 320px;
+    background: white;
+    color: black;
+    display: none;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 4px 12px rgba(0,0,0,.2);
+    z-index: 100;
+}
+
+.detail-div:hover .account-list {
+    display: flex;
+}
+
+.profile-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+.profile-span {
+    font-size: 13px;
+    color: #111;
+}
+
+.manage-profile {
+    color: #007185;
+    text-decoration: none;
+    font-size: 13px;
+}
+.manage-profile:hover {
+    color: #c7511f;
+    text-decoration: underline;
+}
+
+.profile-arrow {
+    font-size: 16px;
+    color: #555;
+    margin-left: 4px;
 }
 
 .hello-text {
