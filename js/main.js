@@ -150,7 +150,7 @@ function createNavbar(parent) {
 
     const profile = document.createElement("span");
     profile.classList.add("profile-span");
-    profile.textContent = " Who is shopping? Select a profile";
+    profile.textContent = " Who is shopping? Select a profile.";
     profileDiv.appendChild(profile);
 
     const manageProfile = document.createElement("a");
