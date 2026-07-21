@@ -164,6 +164,31 @@ function createNavbar(parent) {
     profileArrow.textContent = ">";
     profileDiv.appendChild(profileArrow);
 
+    const listDiv = document.createElement("div");
+    listDiv.classList.add("list-div");
+    accountList.appendChild(listDiv);
+
+    const list = document.createElement("h2");
+    list.classList.add("head");
+    list.textContent = "Your Lists";
+    listDiv.appendChild(list);
+
+    const shoppingList = document.createElement("span");
+    shoppingList.classList.add("text");
+    shoppingList.textContent = "Shopping List";
+    listDiv.appendChild(shoppingList);
+
+    const wishList = document.createElement("span");
+    wishList.classList.add("text");
+    wishList.textContent = "Create a Wish List";
+    listDiv.appendChild(wishList);
+
+    const babyList = document.createElement("span");
+    babyList.classList.add("text");
+    babyList.textContent = "Baby Wishlist";
+    listDiv.appendChild(babyList);
+    
+
     const hello = document.createElement("h3");
     hello.classList.add("hello-text");
     hello.textContent = "Hello, Ajeet";
