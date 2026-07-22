@@ -250,6 +250,36 @@
     text-decoration: underline;
 }
 
+.list-div {
+    display: flex;
+    /* background-color: #555; */
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    gap: 5px;
+    padding: 20px;
+    border-right: 1px solid rgba(192, 192, 192, 0.795);
+}
+
+.head {
+    font-size: 17px;
+    line-height: 25px;
+
+}
+
+.shopping-list {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+
+    border-bottom: 1px solid rgba(192, 192, 192, 0.795);
+}
+
+.text {
+    font-size: 14px;
+    line-height: 20px;
+}
+
 .profile-arrow {
     font-size: 16px;
     color: #555;

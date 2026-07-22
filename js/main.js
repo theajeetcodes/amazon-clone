@@ -174,7 +174,7 @@ function createNavbar(parent) {
     listDiv.appendChild(list);
 
     const shoppingList = document.createElement("span");
-    shoppingList.classList.add("text");
+    shoppingList.classList.add("shopping-list");
     shoppingList.textContent = "Shopping List";
     listDiv.appendChild(shoppingList);
 
