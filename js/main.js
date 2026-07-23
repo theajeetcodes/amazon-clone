@@ -187,7 +187,16 @@ function createNavbar(parent) {
     babyList.classList.add("text");
     babyList.textContent = "Baby Wishlist";
     listDiv.appendChild(babyList);
-    
+
+    const discoverStyle = document.createElement("span");   
+    discoverStyle.classList.add("text");
+    discoverStyle.textContent = "Discover Your Style";
+    listDiv.appendChild(discoverStyle);
+
+    const exploreShowroom = document.createElement("span");
+    exploreShowroom.classList.add("text");
+    exploreShowroom.textContent = "Explore Showroom";
+    listDiv.appendChild(exploreShowroom);
 
     const hello = document.createElement("h3");
     hello.classList.add("hello-text");
