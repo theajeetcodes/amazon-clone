@@ -164,9 +164,15 @@ function createNavbar(parent) {
     profileArrow.textContent = ">";
     profileDiv.appendChild(profileArrow);
 
+    // list div
+
+    const listAccountdiv = document.createElement("div");
+    listAccountdiv.classList.add("list-account");
+    accountList.appendChild(listAccountdiv);
+
     const listDiv = document.createElement("div");
     listDiv.classList.add("list-div");
-    accountList.appendChild(listDiv);
+    listAccountdiv.appendChild(listDiv);
 
     const list = document.createElement("h2");
     list.classList.add("head");
@@ -197,6 +203,26 @@ function createNavbar(parent) {
     exploreShowroom.classList.add("text");
     exploreShowroom.textContent = "Explore Showroom";
     listDiv.appendChild(exploreShowroom);
+  
+    //    YOUR ACCOUNT 
+    const yourAccountDiv = document.createElement("div");
+    yourAccountDiv.classList.add("list-div");
+    listAccountdiv.appendChild(yourAccountDiv);
+
+    const yourAcount = document.createElement("h2");
+    yourAcount.classList.add("head");
+    yourAcount.textContent = "Your Account";
+    yourAccountDiv.appendChild(yourAcount);
+
+    const switchAccount = document.createElement("span");
+    switchAccount.classList.add("shopping-list");
+    switchAccount.textContent = "Switch Accounts";
+    yourAccountDiv.appendChild(switchAccount);
+
+    const signOut = document.createElement("span");
+    signOut.classList.add("shopping-list");
+    signOut.textContent = "Sign Out";
+    yourAccountDiv.appendChild(signOut);
 
     const hello = document.createElement("h3");
     hello.classList.add("hello-text");

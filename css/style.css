@@ -250,6 +250,10 @@
     text-decoration: underline;
 }
 
+.list-account {
+    display: flex;
+}
+
 .list-div {
     display: flex;
     /* background-color: #555; */
