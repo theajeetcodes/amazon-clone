@@ -215,7 +215,7 @@ function createNavbar(parent) {
     yourAccountDiv.appendChild(yourAcount);
 
     const switchAccount = document.createElement("span");
-    switchAccount.classList.add("shopping-list");
+    switchAccount.classList.add("text");
     switchAccount.textContent = "Switch Accounts";
     yourAccountDiv.appendChild(switchAccount);
 
@@ -223,6 +223,26 @@ function createNavbar(parent) {
     signOut.classList.add("shopping-list");
     signOut.textContent = "Sign Out";
     yourAccountDiv.appendChild(signOut);
+
+    const accountText = document.createElement("span");
+    accountText.classList.add("text");
+    accountText.textContent = "Your Account";
+    yourAccountDiv.appendChild(accountText);
+
+    const order = document.createElement("span");
+    order.classList.add("text");
+    order.textContent = "Your Order";
+    yourAccountDiv.appendChild(order);
+
+    const wishlistText = document.createElement("span");
+    wishlistText.classList.add("text");
+    wishlistText.textContent = "your Wish List";
+    yourAccountDiv.appendChild(wishlistText);
+
+    const shoppingText = document.createElement("span");
+    shoppingText.classList.add("text");
+    shoppingText.textContent = "Keep shopping for";
+    yourAccountDiv.appendChild(shoppingText);
 
     const hello = document.createElement("h3");
     hello.classList.add("hello-text");
