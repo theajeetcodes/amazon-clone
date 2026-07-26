@@ -244,6 +244,26 @@ function createNavbar(parent) {
     shoppingText.textContent = "Keep shopping for";
     yourAccountDiv.appendChild(shoppingText);
 
+    const recommend = document.createElement("span");
+    recommend.classList.add("text");
+    recommend.textContent = "Your Recommendations";
+    yourAccountDiv.appendChild(recommend);
+
+    const reTurn = document.createElement("span");
+    reTurn.classList.add("text");
+    reTurn.textContent = "Returns";
+    yourAccountDiv.appendChild(reTurn);
+
+    const recall = document.createElement("span");
+    recall.classList.add("text");
+    recall.textContent = "Recalls and Product Safety Alerts";
+    yourAccountDiv.appendChild(recall);
+
+    const primeMember = document.createElement("span");
+    primeMember.classList.add("text");
+    primeMember.textContent = "Your Prime Membership";
+    yourAccountDiv.appendChild(primeMember);
+
     const hello = document.createElement("h3");
     hello.classList.add("hello-text");
     hello.textContent = "Hello, Ajeet";
