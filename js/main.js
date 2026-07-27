@@ -264,6 +264,21 @@ function createNavbar(parent) {
     primeMember.textContent = "Your Prime Membership";
     yourAccountDiv.appendChild(primeMember);
 
+    const primeVideo = document.createElement("span");
+    primeVideo.classList.add("text");
+    primeVideo.textContent = "Your Prime Video";
+    yourAccountDiv.appendChild(primeVideo);
+
+    const subscribeText = document.createElement("span");
+    subscribeText.classList.add("text");
+    subscribeText.textContent = "Your Subscribe & Save Items";
+    yourAccountDiv.appendChild(subscribeText);
+
+    const membershipAndSubscriptions = document.createElement("span");
+    membershipAndSubscriptions.classList.add("text");
+    membershipAndSubscriptions.textContent = "Memberships & Subscriptions";
+    yourAccountDiv.appendChild(membershipAndSubscriptions);
+
     const hello = document.createElement("h3");
     hello.classList.add("hello-text");
     hello.textContent = "Hello, Ajeet";
