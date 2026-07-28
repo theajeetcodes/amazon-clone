@@ -279,6 +279,16 @@ function createNavbar(parent) {
     membershipAndSubscriptions.textContent = "Memberships & Subscriptions";
     yourAccountDiv.appendChild(membershipAndSubscriptions);
 
+    const sellerAccount = document.createElement("span");
+    sellerAccount.classList.add("text");
+    sellerAccount.textContent = "Seller Account";
+    yourAccountDiv.appendChild(sellerAccount);
+
+    const contentLibrary = document.createElement("span");
+    contentLibrary.classList.add("text");
+    contentLibrary.textContent = "Content Library";
+    yourAccountDiv.appendChild(contentLibrary);
+    
     const hello = document.createElement("h3");
     hello.classList.add("hello-text");
     hello.textContent = "Hello, Ajeet";
