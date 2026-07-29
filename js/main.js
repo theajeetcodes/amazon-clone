@@ -288,6 +288,11 @@ function createNavbar(parent) {
     contentLibrary.classList.add("text");
     contentLibrary.textContent = "Content Library";
     yourAccountDiv.appendChild(contentLibrary);
+
+    const musicLibrary = document.createElement("span");
+    musicLibrary.classList.add("text");
+    musicLibrary.textContent = "Your Music Library";
+    yourAccountDiv.appendChild(musicLibrary);
     
     const hello = document.createElement("h3");
     hello.classList.add("hello-text");
