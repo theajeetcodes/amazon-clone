@@ -293,6 +293,11 @@ function createNavbar(parent) {
     musicLibrary.classList.add("text");
     musicLibrary.textContent = "Your Music Library";
     yourAccountDiv.appendChild(musicLibrary);
+
+    const businessAccount = document.createElement("span")
+    businessAccount.classList.add("text");
+    businessAccount.textContent = "Register for a free Business Account";
+    yourAccountDiv.appendChild(businessAccount);
     
     const hello = document.createElement("h3");
     hello.classList.add("hello-text");
