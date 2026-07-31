@@ -20,10 +20,25 @@ function createNavbar(parent) {
     logo.alt = "Amazon Logo";
     logoDiv.appendChild(logo);
 
+
+    logoDiv.addEventListener("click", () => {
+        alert("Clicked");
+        window.location.reload();
+    });
+
     // locationDiv
     const locationDiv = document.createElement("div");
     locationDiv.classList.add("location-div");
     navDiv.appendChild(locationDiv);
+
+    const locationPopup = document.createElement("div");
+    locationPopup.classList.add("location-popup");
+    locationDiv.appendChild(locationPopup);
+
+    locationDiv.addEventListener("click", () => {
+        locationPopup.style.display = "block";
+        console.log("pop active");
+    })
 
     const iconDiv = document.createElement("div");
     iconDiv.classList.add("icon-div");
@@ -356,4 +371,7 @@ function createNavbar(parent) {
 }
 
 createNavbar(app);
+
+
+
 
