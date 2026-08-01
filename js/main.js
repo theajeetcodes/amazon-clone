@@ -35,6 +35,15 @@ function createNavbar(parent) {
     locationPopup.classList.add("location-popup");
     locationDiv.appendChild(locationPopup);
 
+    const popupHeadDiv = document.createElement("div");
+    popupHeadDiv.classList.add("popup-headdiv");
+    locationPopup.appendChild(popupHeadDiv);
+
+    const popupHead = document.createElement("h2");
+    popupHead.classList.add("popup-head");
+    popupHead.textContent = "Choose your location";
+    popupHeadDiv.appendChild(popupHead);
+
     locationDiv.addEventListener("click", () => {
         locationPopup.style.display = "block";
         console.log("pop active");
