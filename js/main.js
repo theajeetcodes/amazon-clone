@@ -44,6 +44,12 @@ function createNavbar(parent) {
     popupHead.textContent = "Choose your location";
     popupHeadDiv.appendChild(popupHead);
 
+    const multiplyIcon = document.createElement("img");
+    multiplyIcon.classList.add("multiply-icon");
+    multiplyIcon.src = "assets/icons/multiply.png";
+    multiplyIcon.alt = "Multiply Icon";
+    popupHeadDiv.appendChild(multiplyIcon);
+
     locationDiv.addEventListener("click", () => {
         locationPopup.style.display = "block";
         console.log("pop active");

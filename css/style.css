@@ -56,6 +56,26 @@
     z-index: 1000;
 }
 
+.popup-headdiv {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    gap: 100px;
+    border-radius: 10px;
+    background-color: rgb(230, 225, 225);
+
+}
+
+.popup-head {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.multiply-icon {
+    height: 30px;
+}
+
 .icon-div {
     display: flex;
     justify-content: center;
