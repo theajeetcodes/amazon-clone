@@ -50,6 +50,11 @@ function createNavbar(parent) {
     multiplyIcon.alt = "Multiply Icon";
     popupHeadDiv.appendChild(multiplyIcon);
 
+    const paraText = document.createElement("p");
+    paraText.classList.add("para-text");
+    paraText.textContent = "Select a delivery location to see product availability and delivery options";
+    locationPopup.appendChild(paraText);
+
     locationDiv.addEventListener("click", () => {
         locationPopup.style.display = "block";
         console.log("pop active");

@@ -49,7 +49,7 @@
     transform: translate(-50%, -50%);
     width: 400px;
     height: 300px;
-    background: #007185;
+    /* background: #007185; */
     border-radius: 10px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
     display: none;
@@ -74,6 +74,12 @@
 
 .multiply-icon {
     height: 30px;
+}
+
+.para-text {
+    padding: 20px;
+    color: #c7c4c4;
+    font-size: 14px;
 }
 
 .icon-div {
