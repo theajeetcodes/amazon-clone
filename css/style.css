@@ -62,8 +62,8 @@
     align-items: center;
     height: 60px;
     gap: 100px;
-    border-radius: 10px;
-    background-color: rgb(230, 225, 225);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    background-color: rgba(230, 225, 225, 0.705);
 
 }
 
@@ -78,8 +78,20 @@
 
 .para-text {
     padding: 20px;
-    color: #c7c4c4;
+    color: #5e5e5e;
     font-size: 14px;
+}
+
+.add-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 355px;
+    margin-left: 18px;
+    padding: 5px;
+    border-radius: 30px;
+    background-color: #e4d505;
 }
 
 .icon-div {

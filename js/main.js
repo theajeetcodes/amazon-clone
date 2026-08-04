@@ -55,6 +55,15 @@ function createNavbar(parent) {
     paraText.textContent = "Select a delivery location to see product availability and delivery options";
     locationPopup.appendChild(paraText);
 
+    const addressDiv = document.createElement("div")
+    addressDiv.classList.add("add-div");
+    locationPopup.appendChild(addressDiv);
+
+    const address = document.createElement("span");
+    address.classList.add("add-text");
+    address.textContent = "Sign in to see your Addresses";
+    addressDiv.appendChild(address);
+
     locationDiv.addEventListener("click", () => {
         locationPopup.style.display = "block";
         console.log("pop active");
