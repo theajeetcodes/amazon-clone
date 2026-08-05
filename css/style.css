@@ -94,6 +94,25 @@
     background-color: #e4d505;
 }
 
+.divider-div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 20px;
+}
+
+.line {
+    flex: 1;
+    height: 1px;
+    background-color: #d5d9d9;
+}
+
+.divider-text {
+    font-size: 13px;
+    color: #565959;
+    white-space: nowrap;
+}
+
 .icon-div {
     display: flex;
     justify-content: center;
