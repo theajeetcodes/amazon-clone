@@ -89,6 +89,11 @@ function createNavbar(parent) {
     box.classList.add("box");
     boxDiv.appendChild(box);
 
+    const applyDiv = document.createElement("div");
+    applyDiv.classList.add("apply-div");
+    boxDiv.appendChild(applyDiv);
+
+    
     locationDiv.addEventListener("click", () => {
         locationPopup.style.display = "block";
         console.log("pop active");
