@@ -93,7 +93,11 @@ function createNavbar(parent) {
     applyDiv.classList.add("apply-div");
     boxDiv.appendChild(applyDiv);
 
-    
+    const apply = document.createElement("span");
+    apply.classList.add("apply-text");
+    apply.textContent = "Apply";
+    applyDiv.appendChild(apply);
+
     locationDiv.addEventListener("click", () => {
         locationPopup.style.display = "block";
         console.log("pop active");
