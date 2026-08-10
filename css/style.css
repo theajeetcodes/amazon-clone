@@ -119,16 +119,29 @@
     align-items: center;
     height: 70px;
     width: 100%;
+    gap: 10px;
     /* background-color: #555; */
 }
 
 .box {
     height: 20px;
-    width: 100%;
+    width: 60%;
     padding: 10px;
     margin-left: 10px;
     border-radius: 8px;
-    background-color: #c7511f;
+    border: 1px solid #aaa;
+    /* background-color: #c7511f; */
+}
+
+.apply-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 60px;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 20px;
 }
 
 .icon-div {
