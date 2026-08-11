@@ -50,6 +50,11 @@ function createNavbar(parent) {
     multiplyIcon.alt = "Multiply Icon";
     popupHeadDiv.appendChild(multiplyIcon);
 
+    multiplyIcon.addEventListener("click", (event) => {
+        event.stopImmediatePropagation();
+        locationPopup.style.display = "none";
+    });
+
     const paraText = document.createElement("p");
     paraText.classList.add("para-text");
     paraText.textContent = "Select a delivery location to see product availability and delivery options";
@@ -102,7 +107,7 @@ function createNavbar(parent) {
         locationPopup.style.display = "block";
         console.log("pop active");
     })
-
+    
     const iconDiv = document.createElement("div");
     iconDiv.classList.add("icon-div");
     locationDiv.appendChild(iconDiv);
