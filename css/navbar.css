@@ -16,6 +16,8 @@
     background-color: black;
 }
 
+/* Logo */
+
 .logo-div {
     display: flex;
     justify-content: center;
@@ -28,9 +30,11 @@
 
 .logo {
     height: 40px;
-    width: 80%; 
+    width: 80%;
     object-fit: cover;
 }
+
+/* Location */
 
 .location-div {
     display: flex;
@@ -49,7 +53,6 @@
     transform: translate(-50%, -50%);
     width: 400px;
     height: 300px;
-    /* background: #007185; */
     border-radius: 10px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
     display: none;
@@ -64,7 +67,6 @@
     gap: 100px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.3);
     background-color: rgba(230, 225, 225, 0.705);
-
 }
 
 .popup-head {
@@ -94,6 +96,8 @@
     background-color: #e4d505;
 }
 
+/* Divider */
+
 .divider-div {
     display: flex;
     align-items: center;
@@ -113,6 +117,8 @@
     white-space: nowrap;
 }
 
+/* Pincode Box */
+
 .box-div {
     display: flex;
     justify-content: center;
@@ -120,7 +126,6 @@
     height: 70px;
     width: 100%;
     gap: 10px;
-    /* background-color: #555; */
 }
 
 .box {
@@ -130,7 +135,6 @@
     margin-left: 10px;
     border-radius: 8px;
     border: 1px solid #aaa;
-    /* background-color: #c7511f; */
 }
 
 .apply-div {
@@ -143,6 +147,8 @@
     border: 1px solid #aaa;
     border-radius: 20px;
 }
+
+/* Location Content */
 
 .icon-div {
     display: flex;
@@ -174,6 +180,8 @@
     color: white;
 }
 
+/* Search */
+
 .search-div {
     display: flex;
     align-items: center;
@@ -188,7 +196,6 @@
     align-items: center;
     height: 100%;
     width: 50px;
-    /* transition: background-color 0.2s ease; */
 }
 
 .categories-btn {
@@ -226,9 +233,6 @@
     height: 100%;
     width: 50px;
     background-color: rgb(255, 229, 189);
-    /* transition: background-color 0.2s ease; */
-
-
 }
 
 .search {
@@ -236,6 +240,8 @@
     width: 34px;
     object-fit: cover;
 }
+
+/* Language */
 
 .lang-div {
     display: flex;
@@ -257,7 +263,7 @@
     color: black;
     display: none;
     flex-direction: column;
-    box-shadow: 0 2px 10px rgba(0,0,0,.3);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .3);
     z-index: 100;
 }
 
@@ -266,17 +272,17 @@
     cursor: pointer;
 }
 
-
 .language-item:hover {
-    background: #f2f2f2;;
-}.lang-div:hover .language-list {
+    background: #f2f2f2;
+}
+
+.lang-div:hover .language-list {
     display: flex;
 }
 
 .flag {
     height: 30px;
     object-fit: cover;
-    /* width: 100%; */
 }
 
 .lang {
@@ -291,6 +297,8 @@
     margin-top: 5px;
     object-fit: contain;
 }
+
+/* Account */
 
 .detail-div {
     display: flex;
@@ -316,7 +324,7 @@
     flex-direction: column;
     border: 1px solid #ddd;
     border-radius: 4px;
-    box-shadow: 0 4px 12px rgba(0,0,0,.2);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .2);
     z-index: 100;
 }
 
@@ -348,6 +356,7 @@
     font-size: 13px;
     margin-left: 90px;
 }
+
 .manage-profile:hover {
     color: #c7511f;
     text-decoration: underline;
@@ -359,7 +368,6 @@
 
 .list-div {
     display: flex;
-    /* background-color: #555; */
     flex-direction: column;
     height: 100%;
     width: 50%;
@@ -371,7 +379,6 @@
 .head {
     font-size: 17px;
     line-height: 25px;
-
 }
 
 .shopping-list {
@@ -391,14 +398,12 @@
     color: #c7511f;
     text-decoration: underline;
     cursor: pointer;
-    
 }
 
 .profile-arrow {
     font-size: 16px;
     color: #555;
     margin-right: 20px;
-
 }
 
 .hello-text {
@@ -410,7 +415,6 @@
     justify-content: center;
     align-items: center;
     gap: 3px;
-    /* background-color: aqua; */
 }
 
 .account {
@@ -421,11 +425,13 @@
 .account-arrow {
     width: 8px;
     height: 8px;
-    /* margin-top: 3px; */
     object-fit: contain;
     align-self: flex-end;
     margin-bottom: 1px;
 }
+
+/* Cart */
+
 .cart-div {
     display: flex;
     justify-content: center;
@@ -445,7 +451,8 @@
     object-fit: cover;
 }
 
-/* hover */
+/* Hover */
+
 .logo-div:hover {
     border-color: white;
     cursor: pointer;
@@ -468,7 +475,7 @@
 }
 
 .lang-div:hover {
-    border-color:  white;
+    border-color: white;
     cursor: pointer;
 }
 
