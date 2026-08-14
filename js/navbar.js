@@ -21,6 +21,26 @@ function createNavbar(parent) {
     logo.src = "assets/images/logo.png";
     logo.alt = "Amazon Logo";
 
+    // location
+    const locationDiv = createElement("div", "location-div", navDiv);
+
+    const locationPopup = createElement("div", "location-popup", locationDiv);
+    const popupHeadDiv = createElement(
+        "div",
+        "popup-headdiv",
+        locationPopup
+    );
+    const popupHead = createElement("h2", "popup-head", popupHeadDiv);
+    popupHead.textContent = "Choose Your location";
+
+    const multiplyIcon = createElement(
+        "img",
+        "multiply-icon",
+        popupHeadDiv
+    );
+    multiplyIcon.src = "assets/icons/multiply.png";
+    multiplyIcon.alt = "multiply Icon";
+
 
     // logoDiv.addEventListener("click", () => {
     //     alert("Clicked");
