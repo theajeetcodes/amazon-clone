@@ -41,6 +41,29 @@ function createNavbar(parent) {
     multiplyIcon.src = "assets/icons/multiply.png";
     multiplyIcon.alt = "multiply Icon";
 
+    const paraText = createElement(
+        "p",
+        "para-text",
+        locationPopup
+    );
+
+    paraText.textContent = 
+    "Select a delivery location to see product availability and delivery options";
+
+    const addressDiv = createElement(
+        "div",
+        "add-div",
+        locationPopup
+    );
+
+    const address = createElement(
+        "span",
+        "add-text",
+        addressDiv
+    );
+
+    address.textContent = "Sign in to see your Addresses";
+
 
     // logoDiv.addEventListener("click", () => {
     //     alert("Clicked");
