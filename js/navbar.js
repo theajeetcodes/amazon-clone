@@ -64,6 +64,31 @@ function createNavbar(parent) {
 
     address.textContent = "Sign in to see your Addresses";
 
+    const dividerDiv = createElement(
+        "div",
+        "divider-div",
+        locationPopup
+    );
+
+    const leftLine = createElement(
+        "div",
+        "line",
+        dividerDiv
+    );
+
+    const dividerText = createElement(
+        "span",
+        "divider-text",
+        dividerDiv
+    );
+    dividerText.textContent = "or enter an Indian pincode";
+
+    const rightLine = createElement(
+        "div",
+        "line",
+        dividerDiv
+    );
+
 
     // logoDiv.addEventListener("click", () => {
     //     alert("Clicked");
