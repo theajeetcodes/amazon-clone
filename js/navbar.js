@@ -89,6 +89,32 @@ function createNavbar(parent) {
         dividerDiv
     );
 
+    const boxDiv = createElement(
+        "div",
+        "box-div",
+        locationPopup
+    );
+
+    const box = createElement(
+        "input",
+        "box",
+        boxDiv
+    );
+    box.placeholder = "Enter pincode";
+
+    const applyDiv = createElement(
+        "div",
+        "apply-div",
+        boxDiv
+    );
+
+    const apply = createElement(
+        "span",
+        "apply-text",
+        applyDiv
+    );
+    apply.textContent = "Apply"
+
 
     // logoDiv.addEventListener("click", () => {
     //     alert("Clicked");
