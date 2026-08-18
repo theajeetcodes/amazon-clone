@@ -115,7 +115,19 @@ function createNavbar(parent) {
     );
     apply.textContent = "Apply"
 
+    const iconDiv = createElement(
+        "div",
+        "icon-div",
+        locationDiv
+    );
 
+    const icon = createElement(
+        "img",
+        "icon",
+        iconDiv
+    );
+    icon.src = "assets/icons/location.png";
+    icon.alt = "Location Icon";
     // logoDiv.addEventListener("click", () => {
     //     alert("Clicked");
     //     window.location.reload();
