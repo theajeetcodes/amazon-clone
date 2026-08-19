@@ -128,6 +128,8 @@ function createNavbar(parent) {
     );
     icon.src = "assets/icons/location.png";
     icon.alt = "Location Icon";
+
+
     // logoDiv.addEventListener("click", () => {
     //     alert("Clicked");
     //     window.location.reload();
