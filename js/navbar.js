@@ -129,6 +129,17 @@ function createNavbar(parent) {
     icon.src = "assets/icons/location.png";
     icon.alt = "Location Icon";
 
+    const textDiv = createElement(
+        "div",
+        "text-div",
+        locationDiv
+    );
+    const firstSpan = createElement(
+        "span",
+        "first-span",
+        textDiv
+    );
+
 
     // logoDiv.addEventListener("click", () => {
     //     alert("Clicked");
