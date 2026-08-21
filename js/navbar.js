@@ -134,11 +134,20 @@ function createNavbar(parent) {
         "text-div",
         locationDiv
     );
+
     const firstSpan = createElement(
         "span",
         "first-span",
         textDiv
     );
+    firstSpan.textContent = "Delivering to Lucknow 226005";
+
+    const secondSpan = createElement(
+        "span",
+        "second-span",
+        textDiv
+    );
+    secondSpan.textContent = "Update location";
 
 
     // logoDiv.addEventListener("click", () => {
