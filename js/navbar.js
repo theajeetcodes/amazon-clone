@@ -149,6 +149,15 @@ function createNavbar(parent) {
     );
     secondSpan.textContent = "Update location";
 
+    locationDiv.addEventListener("click", () => {
+        locationPopup.style.display = "block";
+    });
+
+    multiplyIcon.addEventListener("click", (event) => {
+        event.stopPropagation();
+        locationPopup.style.display = "none";
+    });
+
 
     // logoDiv.addEventListener("click", () => {
     //     alert("Clicked");
