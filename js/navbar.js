@@ -158,6 +158,18 @@ function createNavbar(parent) {
         locationPopup.style.display = "none";
     });
 
+    applyDiv.addEventListener("click", () => {
+        const pincode = box.value.trim();
+
+        if (pincode.length !== 6 || isNaN(pincode)) {
+            alert("Please enter a valid 6-digit pincode");
+            return;
+        }
+
+        firstSpan.textContent = `Dilivering to ${pincode}`;
+        locationPopup.style.display = "none";
+    });
+
 
     // logoDiv.addEventListener("click", () => {
     //     alert("Clicked");
