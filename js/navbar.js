@@ -170,6 +170,12 @@ function createNavbar(parent) {
         locationPopup.style.display = "none";
     });
 
+    const searchDiv = createElement(
+        "div",
+        "search-div",
+        navDiv
+    );
+
 
     // logoDiv.addEventListener("click", () => {
     //     alert("Clicked");
