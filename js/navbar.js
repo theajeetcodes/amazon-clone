@@ -176,6 +176,18 @@ function createNavbar(parent) {
         navDiv
     );
 
+    const categoriesDiv = createElement(
+        "div",
+        "categories-div",
+        searchDiv
+    );
+
+    const categoriesBtn = createElement(
+        "button",
+        "categories-btn",
+        categoriesDiv
+    );
+
 
     // logoDiv.addEventListener("click", () => {
     //     alert("Clicked");
