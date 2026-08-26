@@ -188,6 +188,13 @@ function createNavbar(parent) {
         categoriesDiv
     );
 
+    const categoriesText = createElement(
+        "span",
+        "categories-text",
+        categoriesBtn
+    );
+    categoriesText.textContent = "All";
+
 
     // logoDiv.addEventListener("click", () => {
     //     alert("Clicked");
