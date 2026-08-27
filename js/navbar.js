@@ -195,6 +195,15 @@ function createNavbar(parent) {
     );
     categoriesText.textContent = "All";
 
+    const downArrow = createElement(
+        "img",
+        "down-arrow",
+        categoriesBtn
+    );
+
+    downArrow.src = "assets/icons/downarrow1.png";
+    downArrow.alt = "Down Arrow";
+
 
     // logoDiv.addEventListener("click", () => {
     //     alert("Clicked");
