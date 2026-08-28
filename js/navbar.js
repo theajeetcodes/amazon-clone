@@ -204,6 +204,12 @@ function createNavbar(parent) {
     downArrow.src = "assets/icons/downarrow1.png";
     downArrow.alt = "Down Arrow";
 
+    const categoriesList = createElement(
+        "div",
+        "categories-list",
+        "categoriesDiv"
+    );
+
 
     // logoDiv.addEventListener("click", () => {
     //     alert("Clicked");
