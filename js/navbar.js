@@ -210,6 +210,18 @@ function createNavbar(parent) {
         "categoriesDiv"
     );
 
+    const categories = [
+        "All",
+        "Amazon Devices",
+        "Amazon Fashion",
+        "Books",
+        "Electronics",
+        "Furniture",
+        "Grocery",
+        "Mobile",
+        "Sports"
+    ];
+
 
     // logoDiv.addEventListener("click", () => {
     //     alert("Clicked");
