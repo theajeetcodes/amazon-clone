@@ -207,7 +207,7 @@ function createNavbar(parent) {
     const categoriesList = createElement(
         "div",
         "categories-list",
-        "categoriesDiv"
+        categoriesDiv
     );
 
     const categories = [
@@ -221,6 +221,16 @@ function createNavbar(parent) {
         "Mobile",
         "Sports"
     ];
+
+    categories.forEach((category) => {
+        const categoryItem = createElement(
+            "div",
+            "category-item",
+            categoriesList
+        );
+
+        categoryItem.textContent = category;
+    });
 
 
     // logoDiv.addEventListener("click", () => {
