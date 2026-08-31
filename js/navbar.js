@@ -232,6 +232,20 @@ function createNavbar(parent) {
         categoryItem.textContent = category;
     });
 
+    categoriesBtn.addEventListener("click", (event) => {
+        event.stopPropagation();
+
+        if (categoriesList.style.display === "flex") {
+            categoriesList.style.display = "none";
+        } else {
+            categoriesList.style.display = "flex";
+        }
+    });
+
+    document.addEventListener("click", () => {
+        categoriesList.style.display = "none";
+    });
+
 
     // logoDiv.addEventListener("click", () => {
     //     alert("Clicked");
