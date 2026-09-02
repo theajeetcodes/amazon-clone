@@ -246,6 +246,14 @@ function createNavbar(parent) {
         categoriesList.style.display = "none";
     });
 
+    const input = createElement(
+        "input",
+        "input",
+        searchDiv
+    );
+
+    input.placeholder = "Search Amazon.in";
+
 
     // logoDiv.addEventListener("click", () => {
     //     alert("Clicked");
