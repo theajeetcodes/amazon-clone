@@ -253,6 +253,15 @@ function createNavbar(parent) {
     );
 
     input.placeholder = "Search Amazon.in";
+    
+    const searchIcon = createElement(
+        "div",
+        "search-icon",
+        searchDiv
+    );
+    // const searchIcon = document.createElement("div")
+    // searchIcon.classList.add("search-icon");
+    // searchDiv.appendChild(searchIcon);
 
 
     // logoDiv.addEventListener("click", () => {
