@@ -259,9 +259,15 @@ function createNavbar(parent) {
         "search-icon",
         searchDiv
     );
-    // const searchIcon = document.createElement("div")
-    // searchIcon.classList.add("search-icon");
-    // searchDiv.appendChild(searchIcon);
+
+    const search = createElement(
+        "img",
+        "search",
+        searchIcon
+    )
+
+    search.src = "assets/icons/search.png";
+    search.alt = "Search";
 
 
     // logoDiv.addEventListener("click", () => {
