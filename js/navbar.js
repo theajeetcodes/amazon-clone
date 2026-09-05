@@ -269,6 +269,10 @@ function createNavbar(parent) {
     search.src = "assets/icons/search.png";
     search.alt = "Search";
 
+    search.addEventListener("click", () => {
+        console.log("Search clicked");
+    });
+
 
     // logoDiv.addEventListener("click", () => {
     //     alert("Clicked");
