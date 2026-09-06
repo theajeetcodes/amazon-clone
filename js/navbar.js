@@ -270,7 +270,8 @@ function createNavbar(parent) {
     search.alt = "Search";
 
     search.addEventListener("click", () => {
-        console.log("Search clicked");
+        const searchValue = input.value;
+        console.log(searchValue);
     });
 
 
