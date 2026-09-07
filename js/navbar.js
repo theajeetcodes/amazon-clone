@@ -270,7 +270,12 @@ function createNavbar(parent) {
     search.alt = "Search";
 
     search.addEventListener("click", () => {
-        const searchValue = input.value;
+        const searchValue = input.value.trim();
+
+        if (searchValue === "") {
+            alert("Please enter a product name");
+            return;
+        }
         console.log(searchValue);
     });
 
