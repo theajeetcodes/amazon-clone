@@ -279,6 +279,14 @@ function createNavbar(parent) {
         console.log(searchValue);
     });
 
+    // language
+    const langDiv = createElement(
+        "div",
+        "lang-div",
+        navDiv
+    );
+    
+
 
     // logoDiv.addEventListener("click", () => {
     //     alert("Clicked");
