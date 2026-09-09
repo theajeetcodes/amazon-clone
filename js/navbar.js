@@ -285,6 +285,23 @@ function createNavbar(parent) {
         "lang-div",
         navDiv
     );
+
+    const flag = createElement(
+        "img",
+        "flag",
+        langDiv
+    );
+
+    flag.src = "assets/images/flag.png";
+    flag.alt = "Indian Flag";
+
+    const lang = createElement(
+        "span",
+        "lang",
+        langDiv
+    );
+
+    lang.textContent = "EN";
     
 
 
