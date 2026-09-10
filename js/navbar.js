@@ -302,6 +302,15 @@ function createNavbar(parent) {
     );
 
     lang.textContent = "EN";
+
+    const langArrow = createElement(
+        "img",
+        "lang-arrow",
+        langDiv
+    );
+
+    langArrow.src = "assets/icons/downarrow.png";
+    langArrow.alt = "Down Arrow";
     
 
 
