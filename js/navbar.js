@@ -311,6 +311,12 @@ function createNavbar(parent) {
 
     langArrow.src = "assets/icons/downarrow.png";
     langArrow.alt = "Down Arrow";
+
+    const languageList = createElement(
+        "div",
+        "language-list",
+        langDiv
+    );
     
 
 
