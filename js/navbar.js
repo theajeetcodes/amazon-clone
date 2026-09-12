@@ -318,6 +318,16 @@ function createNavbar(parent) {
         langDiv
     );
     
+    const languages = [
+        "English - EN",
+        "हिन्दी - HI",
+        "தமிழ்",
+        "ಕನ್ನಡ",
+        "മലയാളം",
+        "বাংলা",
+        "मराठी",
+        "ਪੰਜਾਬੀ"
+    ];
 
 
     // logoDiv.addEventListener("click", () => {
