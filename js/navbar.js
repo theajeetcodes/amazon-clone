@@ -329,6 +329,15 @@ function createNavbar(parent) {
         "ਪੰਜਾਬੀ"
     ];
 
+    languages.forEach((language) => {
+
+        const languageItem = createElement(
+            "div",
+            "language-item",
+            languageList
+        );
+    });
+
 
     // logoDiv.addEventListener("click", () => {
     //     alert("Clicked");
