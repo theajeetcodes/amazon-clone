@@ -337,6 +337,10 @@ function createNavbar(parent) {
             languageList
         );
         languageItem.textContent = language;
+
+        languageItem.addEventListener("click", () => {
+            lang.textContent = language;
+        });
     });
 
 
