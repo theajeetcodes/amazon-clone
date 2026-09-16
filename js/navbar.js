@@ -340,6 +340,7 @@ function createNavbar(parent) {
 
         languageItem.addEventListener("click", () => {
             lang.textContent = language;
+            languageList.style.display = "none";
         });
     });
 
