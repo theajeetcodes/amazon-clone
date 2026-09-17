@@ -286,6 +286,12 @@ function createNavbar(parent) {
         navDiv
     );
 
+    const detailDiv = createElement(
+        "div",
+        "detail-div",
+        navDiv
+    );
+
     const flag = createElement(
         "img",
         "flag",
