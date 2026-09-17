@@ -292,6 +292,14 @@ function createNavbar(parent) {
         navDiv
     );
 
+    const hello = createElement(
+        "h3",
+        "hello-text",
+        detailDiv
+    );
+
+    hello.textContent = "Hello, Ajeet";
+
     const flag = createElement(
         "img",
         "flag",
