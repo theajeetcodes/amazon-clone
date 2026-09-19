@@ -300,6 +300,12 @@ function createNavbar(parent) {
 
     hello.textContent = "Hello, Ajeet";
 
+    const accountDiv = createElement(
+        "div",
+        "account-div",
+        detailDiv
+    );
+
     const flag = createElement(
         "img",
         "flag",
