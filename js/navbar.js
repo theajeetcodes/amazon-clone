@@ -306,6 +306,14 @@ function createNavbar(parent) {
         detailDiv
     );
 
+    const account = createElement(
+        "span",
+        "account",
+        accountDiv
+    );
+    
+    accountDiv.textContent = "Account & Lists";
+
     const flag = createElement(
         "img",
         "flag",
