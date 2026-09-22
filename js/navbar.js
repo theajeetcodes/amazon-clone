@@ -323,6 +323,12 @@ function createNavbar(parent) {
     accountArrow.src = "assets/icons/downarrow.png";
     accountArrow.alt = "Down Arrow"
 
+    const accountList = createElement(
+        "div",
+        "account-list",
+        detailDiv
+    );
+
     const flag = createElement(
         "img",
         "flag",
