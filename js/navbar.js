@@ -329,6 +329,12 @@ function createNavbar(parent) {
         detailDiv
     );
 
+    const profileDiv = createElement(
+        "div",
+        "profile-div",
+        accountList
+    );
+
     const flag = createElement(
         "img",
         "flag",
