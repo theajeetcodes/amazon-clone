@@ -335,6 +335,14 @@ function createNavbar(parent) {
         accountList
     );
 
+    const profile = createElement(
+        "span",
+        "profile-span",
+        profileDiv
+    );
+
+    profile.textContent = "Who is shopping? Select a profile.";
+
     const flag = createElement(
         "img",
         "flag",
