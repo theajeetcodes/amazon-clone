@@ -343,6 +343,15 @@ function createNavbar(parent) {
 
     profile.textContent = "Who is shopping? Select a profile.";
 
+    const manageProfile = createElement(
+        "a",
+        "manage-profile",
+        profileDiv
+    );
+
+    manageProfile.href = "#";
+    manageProfile.textContent = "Manage Profiles";
+
     const flag = createElement(
         "img",
         "flag",
