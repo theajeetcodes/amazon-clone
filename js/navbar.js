@@ -352,6 +352,14 @@ function createNavbar(parent) {
     manageProfile.href = "#";
     manageProfile.textContent = "Manage Profiles";
 
+    const profileArrow = createElement(
+        "span",
+        "profile-arrow",
+        profileDiv
+    );
+
+    profileArrow.textContent = ">";
+
     const flag = createElement(
         "img",
         "flag",
