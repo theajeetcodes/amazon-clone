@@ -360,6 +360,12 @@ function createNavbar(parent) {
 
     profileArrow.textContent = ">";
 
+    const listAccountDiv = createElement(
+        "div",
+        "list-account",
+        accountList
+    );
+
     const flag = createElement(
         "img",
         "flag",
