@@ -366,6 +366,20 @@ function createNavbar(parent) {
         accountList
     );
 
+    const listDiv = createElement(
+        "div",
+        "list-div",
+        listAccountDiv
+    );
+
+    const list = createElement(
+        "h2",
+        "head",
+        listDiv
+    );
+
+    list.textContent = "Your Lists";
+
     const flag = createElement(
         "img",
         "flag",
