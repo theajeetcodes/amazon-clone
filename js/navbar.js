@@ -388,6 +388,14 @@ function createNavbar(parent) {
 
     shoppingList.textContent = "Shopping List";
 
+    const wishList = createElement(
+        "span",
+        "text",
+        listDiv
+    );
+
+    wishList.textContent = "Create a Wish List";
+
     const flag = createElement(
         "img",
         "flag",
