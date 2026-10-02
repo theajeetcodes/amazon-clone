@@ -404,6 +404,14 @@ function createNavbar(parent) {
 
     babyList.textContent = "Baby Wishlist";
 
+    const discoverStyle = createElement(
+        "span",
+        "text",
+        listDiv
+    );
+
+    discoverStyle.textContent = "Discover Your Style";
+
     const flag = createElement(
         "img",
         "flag",
