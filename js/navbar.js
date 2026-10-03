@@ -412,6 +412,14 @@ function createNavbar(parent) {
 
     discoverStyle.textContent = "Discover Your Style";
 
+    const exploreShowroom = createElement(
+        "span",
+        "text",
+        listDiv
+    );
+
+    exploreShowroom.textContent = "Explore Showroom";
+
     const flag = createElement(
         "img",
         "flag",
