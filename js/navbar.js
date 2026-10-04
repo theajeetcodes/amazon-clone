@@ -420,6 +420,12 @@ function createNavbar(parent) {
 
     exploreShowroom.textContent = "Explore Showroom";
 
+    const yourAccountDiv = createElement(
+        "div",
+        "list-div",
+        listAccountDiv
+    );
+
     const flag = createElement(
         "img",
         "flag",
