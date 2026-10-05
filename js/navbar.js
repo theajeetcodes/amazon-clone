@@ -426,6 +426,14 @@ function createNavbar(parent) {
         listAccountDiv
     );
 
+    const yourAcount = createElement(
+        "h2",
+        "head",
+        yourAccountDiv
+    );
+
+    yourAcount.textContent = "Your Account";
+
     const flag = createElement(
         "img",
         "flag",
