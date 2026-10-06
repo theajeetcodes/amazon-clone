@@ -434,6 +434,14 @@ function createNavbar(parent) {
 
     yourAcount.textContent = "Your Account";
 
+    const switchAccounts = createElement(
+        "span",
+        "text",
+        yourAccountDiv
+    );
+
+    switchAccounts.textContent = "Switch Accounts";
+
     const flag = createElement(
         "img",
         "flag",
