@@ -450,6 +450,14 @@ function createNavbar(parent) {
 
     signOut.textContent = "Sign Out";
 
+    const yourAccount = createElement(
+        "span",
+        "text",
+        yourAccountDiv
+    );
+
+    yourAccount.textContent = "Your Account";
+
     const flag = createElement(
         "img",
         "flag",
