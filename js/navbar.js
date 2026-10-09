@@ -458,6 +458,14 @@ function createNavbar(parent) {
 
     yourAccount.textContent = "Your Account";
 
+    const yourOrder = createElement(
+        "span",
+        "text",
+        yourAccountDiv
+    );
+
+    yourOrder.textContent = "Your Order";
+
     const flag = createElement(
         "img",
         "flag",
