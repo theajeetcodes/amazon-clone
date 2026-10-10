@@ -466,6 +466,14 @@ function createNavbar(parent) {
 
     yourOrder.textContent = "Your Order";
 
+    const yourWishList = createElement(
+        "span",
+        "text",
+        yourAccountDiv
+    );
+
+    yourWishList.textContent = "Your Wish List";
+
     const flag = createElement(
         "img",
         "flag",
