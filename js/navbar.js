@@ -482,6 +482,14 @@ function createNavbar(parent) {
 
     keepShopping.textContent = "Keep shopping for";
 
+    const recommendations = createElement(
+        "span",
+        "text",
+        yourAccountDiv
+    );
+
+    recommendations.textContent = "Your Recommendations";
+
     const flag = createElement(
         "img",
         "flag",
