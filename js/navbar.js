@@ -490,6 +490,14 @@ function createNavbar(parent) {
 
     recommendations.textContent = "Your Recommendations";
 
+    const returns = createElement(
+        "span",
+        "text",
+        yourAccountDiv
+    );
+
+    returns.textContent = "Returns";
+
     const flag = createElement(
         "img",
         "flag",
