@@ -498,6 +498,14 @@ function createNavbar(parent) {
 
     returns.textContent = "Returns";
 
+    const Recalls = createElement(
+        "span",
+        "text",
+        yourAccountDiv
+    );
+
+    Recalls.textContent = "Recalls & Product Safety Alerts";
+
     const flag = createElement(
         "img",
         "flag",
