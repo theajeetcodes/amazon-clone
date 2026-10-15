@@ -506,6 +506,14 @@ function createNavbar(parent) {
 
     Recalls.textContent = "Recalls & Product Safety Alerts";
 
+    const PrimeMembership = createElement(
+        "span",
+        "text",
+        yourAccountDiv
+    );
+
+    PrimeMembership.textContent = "Your Prime Membership";
+
     const flag = createElement(
         "img",
         "flag",
