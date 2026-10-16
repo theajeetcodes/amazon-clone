@@ -514,6 +514,14 @@ function createNavbar(parent) {
 
     PrimeMembership.textContent = "Your Prime Membership";
 
+    const primeVideo = createElement(
+        "span",
+        "text",
+        yourAccountDiv
+    );
+
+    primeVideo.textContent = "Your Prime Video";
+
     const flag = createElement(
         "img",
         "flag",
