@@ -530,6 +530,14 @@ function createNavbar(parent) {
 
     subscribeSave.textContent = "Your Subscribe & Save Items";
 
+    const Memberships = createElement(
+        "span",
+        "text",
+        yourAccountDiv
+    );
+
+    Memberships.textContent = "Memberships & Subscriptions";
+
     const flag = createElement(
         "img",
         "flag",
