@@ -538,6 +538,14 @@ function createNavbar(parent) {
 
     Memberships.textContent = "Memberships & Subscriptions";
 
+    const sellerAccount = createElement(
+        "span",
+        "text",
+        yourAccountDiv
+    );
+
+    sellerAccount.textContent = "Seller Account";
+
     const flag = createElement(
         "img",
         "flag",
