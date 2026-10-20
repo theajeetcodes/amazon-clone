@@ -546,6 +546,14 @@ function createNavbar(parent) {
 
     sellerAccount.textContent = "Seller Account";
 
+    const contentLibrary = createElement(
+        "span",
+        "text",
+        yourAccountDiv
+    );
+
+    contentLibrary.textContent = "Content Library";
+
     const flag = createElement(
         "img",
         "flag",
