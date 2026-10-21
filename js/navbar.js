@@ -554,6 +554,14 @@ function createNavbar(parent) {
 
     contentLibrary.textContent = "Content Library";
 
+    const musicLibrary = createElement(
+        "span",
+        "text",
+        yourAccountDiv
+    );
+
+    musicLibrary.textContent = "Your Music Library";
+
     const flag = createElement(
         "img",
         "flag",
