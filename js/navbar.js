@@ -562,6 +562,14 @@ function createNavbar(parent) {
 
     musicLibrary.textContent = "Your Music Library";
 
+    const businessAccount = createElement(
+        "span",
+        "text",
+        yourAccountDiv
+    );
+
+    businessAccount.textContent = "Register for a free Business Account";
+
     const flag = createElement(
         "img",
         "flag",
