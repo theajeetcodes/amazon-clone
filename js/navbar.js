@@ -570,6 +570,12 @@ function createNavbar(parent) {
 
     businessAccount.textContent = "Register for a free Business Account";
 
+    const returnDiv = createElement(
+        "div",
+        "detail-div",
+        navDiv
+    );
+
     const flag = createElement(
         "img",
         "flag",
