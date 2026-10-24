@@ -576,6 +576,14 @@ function createNavbar(parent) {
         navDiv
     );
 
+    const returnText = createElement(
+        "h3",
+        "hello-text",
+        returnDiv
+    );
+
+    returnText.textContent = "Returns";
+
     const flag = createElement(
         "img",
         "flag",
