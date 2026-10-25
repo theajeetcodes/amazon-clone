@@ -584,6 +584,35 @@ function createNavbar(parent) {
 
     returnText.textContent = "Returns";
 
+    const orderText = createElement(
+        "h3",
+        "account",
+        returnDiv
+    );
+
+    orderText.textContent = "& Orders";
+
+    const cartDiv = createElement(
+        "div",
+        "cart-div",
+        navDiv
+    );
+
+    const cartIconDiv = createElement(
+        "div",
+        "cart-icon-div",
+        cartDiv
+    );
+
+    const cartIcon = createElement(
+        "img",
+        "cart-icon",
+        cartIconDiv
+    );
+
+    cartIcon.src = "assets/icons/cart.png";
+    cartIcon.alt = "Cart Icon";
+
     const flag = createElement(
         "img",
         "flag",
