@@ -613,6 +613,14 @@ function createNavbar(parent) {
     cartIcon.src = "assets/icons/cart.png";
     cartIcon.alt = "Cart Icon";
 
+    const cartText = createElement(
+        "h3",
+        "account",
+        cartDiv
+    );
+
+    cartText.textContent = "Cart";
+
     const flag = createElement(
         "img",
         "flag",
