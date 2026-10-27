@@ -312,7 +312,7 @@ function createNavbar(parent) {
         accountDiv
     );
     
-    accountDiv.textContent = "Account & Lists";
+    account.textContent = "Account & Lists";
 
     const accountArrow = createElement(
         "img",
