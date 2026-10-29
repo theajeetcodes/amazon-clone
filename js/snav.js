@@ -11,3 +11,14 @@ function createSnavElement(tag, className, parent) {
 
     return selement;
 }
+
+function createSnav(parent) {
+    const snavDiv = createSnavElement("div", "snav-div", parent);
+
+    // menu
+    const menuDiv = createSnavElement(
+        "div",
+        "menu-div",
+        snavDiv
+    );
+}
