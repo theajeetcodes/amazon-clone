@@ -21,4 +21,11 @@ function createSnav(parent) {
         "menu-div",
         snavDiv
     );
+
+    const menuIcon = createSnavElement(
+        "img",
+        "menu-icon",
+        menuDiv
+    );
+    menuIcon.src = "assets/icons/menu.png";
 }
