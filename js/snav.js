@@ -28,4 +28,25 @@ function createSnav(parent) {
         menuDiv
     );
     menuIcon.src = "assets/icons/menu.png";
+    menuIcon.alt = "Menu Icon";
+
+    const menuText = createSnavElement(
+        "span",
+        "menu-text",
+        menuDiv
+    );
+    menuText.textContent = "All";
+
+    const primeVideoDiv = createSnavElement(
+        "div",
+        "primeVideoDiv",
+        snavDiv
+    );
+
+    const primeVideoText = createSnavElement(
+        "span",
+        "primeVideoText",
+        primeVideoDiv
+    );
+    primeVideoText.textContent = "Prime Video";
 }
