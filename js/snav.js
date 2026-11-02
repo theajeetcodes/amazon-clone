@@ -37,6 +37,19 @@ function createSnav(parent) {
     );
     menuText.textContent = "All";
 
+    const freshDiv = createSnavElement(
+        "div",
+        "fresh-div",
+        snavDiv
+    );
+
+    const freshText = createSnavElement(
+        "span",
+        "fresh-text",
+        freshDiv
+    );
+    freshText.textContent = "Fresh";
+
     const primeVideoDiv = createSnavElement(
         "div",
         "primeVideoDiv",
