@@ -62,4 +62,33 @@ function createSnav(parent) {
         primeVideoDiv
     );
     primeVideoText.textContent = "Prime Video";
+
+    const sellDiv = createSnavElement(
+        "div",
+        "sell-div",
+        snavDiv
+    );
+
+    const sellText = createSnavElement(
+        "span",
+        "sell-text",
+        sellDiv
+    );
+
+    sellText.textContent = "Sell";
+
+    const bestSellerDiv = createSnavElement(
+        "div",
+        "bestseller-div",
+        snavDiv
+    );
+
+    const bestSellerText = createSnavElement(
+        "span",
+        "bestsellers-text",
+        bestSellerDiv
+    );
+
+    bestSellerText.textContent = "BestSellers";
+
 }
