@@ -91,4 +91,17 @@ function createSnav(parent) {
 
     bestSellerText.textContent = "BestSellers";
 
+    const dayDealDiv = createSnavElement(
+        "div",
+        "daydeal-div",
+        snavDiv
+    );
+
+    const dayDealText = createSnavElement(
+        "span",
+        "daydeal-text",
+        dayDealDiv
+    );
+    dayDealText.textContent = "Today's Deals";
+
 }
