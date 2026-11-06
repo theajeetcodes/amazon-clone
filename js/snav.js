@@ -104,4 +104,19 @@ function createSnav(parent) {
     );
     dayDealText.textContent = "Today's Deals";
 
+
+    const mobileDiv = createSnavElement(
+        "div",
+        "mobile-div",
+        snavDiv
+    );
+
+    const mobileText = createSnavElement(
+        "span",
+        "mobile-text",
+        mobileDiv
+    );
+
+    mobileText.textContent = "Mobiles";
+
 }
