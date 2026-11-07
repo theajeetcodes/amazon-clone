@@ -119,4 +119,17 @@ function createSnav(parent) {
 
     mobileText.textContent = "Mobiles";
 
+    const amazonpayDiv = createSnavElement(
+        "div",
+        "amazonpay-div",
+        snavDiv
+    );
+
+    const amazonpayText = createSnavElement(
+        "span",
+        "amazonpay-text",
+        amazonpayDiv
+    );
+    amazonpayText.textContent = "Amazon Pay";
+
 }
