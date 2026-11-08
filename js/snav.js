@@ -132,4 +132,17 @@ function createSnav(parent) {
     );
     amazonpayText.textContent = "Amazon Pay";
 
+    const couponDiv = createSnavElement(
+        "div",
+        "coupon-div",
+        snavDiv
+    );
+
+    const couponText = createSnavElement(
+        "span",
+        "coupon-text",
+        couponDiv
+    );
+    couponText.textContent = "Coupons";
+
 }
