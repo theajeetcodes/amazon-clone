@@ -145,4 +145,18 @@ function createSnav(parent) {
     );
     couponText.textContent = "Coupons";
 
+    const flightDiv = createSnavElement(
+        "div",
+        "flight-div",
+        snavDiv
+    );
+
+    const flightText = createSnavElement(
+        "span",
+        "flight-text",
+        flightDiv
+    );
+    flightText.textContent = "Flights";
+
+
 }
