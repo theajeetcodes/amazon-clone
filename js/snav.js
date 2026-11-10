@@ -158,5 +158,18 @@ function createSnav(parent) {
     );
     flightText.textContent = "Flights";
 
+    const groceryDiv = createSnavElement(
+        "div",
+        "grocery-div",
+        snavDiv
+    );
+
+    const groceryText = createSnavElement(
+        "span",
+        "grocery-text",
+        groceryDiv
+    );
+    groceryText.textContent = "Grocery & Gourmet Foods";
+
 
 }
