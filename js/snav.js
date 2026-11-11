@@ -171,5 +171,17 @@ function createSnav(parent) {
     );
     groceryText.textContent = "Grocery & Gourmet Foods";
 
+    const electronicDiv = createSnavElement(
+        "div",
+        "electronic-div",
+        snavDiv
+    );
+
+    const electronicText = createSnavElement(
+        "span",
+        "electronic-text",
+        electronicDiv
+    );
+    electronicText.textContent = "Electronics";
 
 }
