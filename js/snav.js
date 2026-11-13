@@ -197,4 +197,17 @@ function createSnav(parent) {
     );
     fashionText.textContent = "Fashion";
 
+    const computerDiv = createSnavElement(
+        "div",
+        "computer-div",
+        snavDiv
+    );
+
+    const computerText = createSnavElement(
+        "span",
+        "computer-text",
+        computerDiv
+    );
+    computerText.textContent = "Computers";
+
 }
