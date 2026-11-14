@@ -210,4 +210,10 @@ function createSnav(parent) {
     );
     computerText.textContent = "Computers";
 
+    const customproductDiv = createSnavElement(
+        "div",
+        "customproduct-div",
+        snavDiv
+    );
+
 }
