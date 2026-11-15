@@ -216,4 +216,11 @@ function createSnav(parent) {
         snavDiv
     );
 
+    const customproductText = createSnavElement(
+        "span",
+        "customproduct-text",
+        customproductDiv
+    );
+    customproductText.textContent = "Custom Products";
+
 }
