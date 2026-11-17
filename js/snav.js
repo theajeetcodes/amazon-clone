@@ -228,6 +228,13 @@ function createSnav(parent) {
         "newreleases-div",
         snavDiv
     );
-    
+
+    const newreleasesText = createSnavElement(
+        "span",
+        "newreleases-text",
+        newreleasesDiv
+    );
+    newreleasesText.textContent = "New Releases";
+
 
 }
