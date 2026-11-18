@@ -236,5 +236,18 @@ function createSnav(parent) {
     );
     newreleasesText.textContent = "New Releases";
 
+    const fitnessDiv = createSnavElement(
+        "div",
+        "fitness-div",
+        snavDiv
+    );
+
+    const fitnessText = createSnavElement(
+        "span",
+        "fitness-text",
+        fitnessDiv
+    );
+    fitnessText.textContent = "Sports, Fitness & Outdoors";
+
 
 }
