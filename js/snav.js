@@ -249,5 +249,11 @@ function createSnav(parent) {
     );
     fitnessText.textContent = "Sports, Fitness & Outdoors";
 
+    const petsuppliesDiv = createSnavElement(
+        "div",
+        "petsupplies-div",
+        snavDiv
+    );
+
 
 }
