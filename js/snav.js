@@ -255,5 +255,12 @@ function createSnav(parent) {
         snavDiv
     );
 
+    const petsuppliesText = createSnavElement (
+        "span",
+        "petsupplies-Text",
+        petsuppliesDiv
+    );
+    petsuppliesText.textContent = "Pet Supplies";
+
 
 }
