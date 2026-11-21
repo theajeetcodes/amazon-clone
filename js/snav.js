@@ -262,5 +262,11 @@ function createSnav(parent) {
     );
     petsuppliesText.textContent = "Pet Supplies";
 
+    const bookDiv = createSnavElement(
+        "div",
+        "book-div",
+        snavDiv
+    );
+
 
 }
