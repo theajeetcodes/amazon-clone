@@ -268,5 +268,12 @@ function createSnav(parent) {
         snavDiv
     );
 
+    const bookText = createSnavElement(
+        "span",
+        "book-text",
+        bookDiv
+    );
+    bookText.textContent = "Books";
+
 
 }
