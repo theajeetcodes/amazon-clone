@@ -288,4 +288,10 @@ function createSnav(parent) {
     );
 
     babyText.textContent = "Baby";
+
+    const ebookDiv = createSnavElement(
+        "div",
+        "ebook-div",
+        snavDiv
+    );
 }
