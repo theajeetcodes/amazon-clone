@@ -294,4 +294,12 @@ function createSnav(parent) {
         "ebook-div",
         snavDiv
     );
+
+    const ebookText = createSnavElement(
+        "span",
+        "ebook-text",
+        ebookDiv
+    );
+
+    ebookText.textContent = "Kindle eBooks";
 }
